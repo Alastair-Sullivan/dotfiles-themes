@@ -1,0 +1,47 @@
+* {
+    border: none;
+    font-family: "Font Awesome", "JetBrains Mono", "Material Design Icons";
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(30, 30, 46, 0.0); /* Semi-transparent */
+    color: #000000; /*letter colors*/
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background: transparent;
+    color: #000000;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    background: #DEB887;
+}
+
+#workspaces button:hover {
+    background: #6c7086;
+}
+
+#clock, #pulseaudio, #network, #cpu, #memory, #battery, #tray {
+    padding: 0 10px;
+    margin: 0 4px;
+    border-radius: 8px;
+    background: #DEB887;
+}
+
+#battery.warning {
+    color: #f9e2af;
+}
+
+#battery.critical {
+    color: #f38ba8;
+}
+
+#battery.charging {
+    color: #a6e3a1;
+}

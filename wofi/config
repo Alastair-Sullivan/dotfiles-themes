@@ -1,0 +1,6 @@
+width = 800
+height = 400
+prompt = Search...
+show = drun
+insensitive = true
+allow_markup = true

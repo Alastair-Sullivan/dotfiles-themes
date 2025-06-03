@@ -1,0 +1,9 @@
+pywal
+hyprcursor
+wofi
+waybar
+mako
+kitty
+thunar
+firefox
+hyprpaper

@@ -1,0 +1,23 @@
+window {
+  margin: 5px;
+  border: 2px solid #bd93f9;  /* Purple border (match your theme) */
+  background-color: rgba(40, 42, 54, 0.9); /* Semi-transparent dark */
+}
+
+#input {
+  color: #f8f8f2;
+  background-color: rgba(68, 71, 90, 0.7);
+  margin: 5px;
+}
+
+#inner-box {
+  margin: 5px;
+}
+
+#entry {
+  color: #f8f8f2;
+}
+
+#entry:selected {
+  background-color: #44475a;
+}
