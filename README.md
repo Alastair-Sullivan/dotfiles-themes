@@ -1,3 +1,5 @@
+#DEPENDENCIES
+
 pywal
 hyprcursor
 wofi
@@ -7,3 +9,6 @@ kitty
 thunar
 firefox
 hyprpaper
+nordzy-icon-theme
+nordic-theme
+sway

@@ -1,13 +1,13 @@
 * {
     border: none;
-    font-family: "Font Awesome", "JetBrains Mono", "Material Design Icons";
+    font-family: "Font Awesome", "Material Design Icons", "JetBrains Mono";
     font-size: 12px;
     min-height: 0;
 }
 
 window#waybar {
-    background: rgba(30, 30, 46, 0.0); /* Semi-transparent */
-    color: #000000; /*letter colors*/
+    background: rgba(30, 30, 46, 0.4); /* Semi-transparent */
+    color: #000000; /* Previously var(--LC) */
     border-radius: 10px;
     margin: 5px;
 }
@@ -15,12 +15,12 @@ window#waybar {
 #workspaces button {
     padding: 0 8px;
     background: transparent;
-    color: #000000;
+    color: #000000; /* Previously var(--LC) */
     border-radius: 8px;
 }
 
 #workspaces button.active {
-    background: #DEB887;
+    background: #DEB887; /* Previously var(--Death) */
 }
 
 #workspaces button:hover {
@@ -31,7 +31,11 @@ window#waybar {
     padding: 0 10px;
     margin: 0 4px;
     border-radius: 8px;
-    background: #DEB887;
+    background: #DEB887; /* Previously var(--Death) */
+}
+#cpu {
+    padding: 0 8px;  /* More horizontal padding */
+    margin: 0 2px;   /* Space between modules */
 }
 
 #battery.warning {
