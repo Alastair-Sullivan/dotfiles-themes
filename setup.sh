@@ -1,4 +1,5 @@
 !#/bin/bash
+mkdir ~/.config/wofi
 mv ~/dotfiles-themes ~/.dotfiles-themes
 mv ~/.config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf.bak
 rm ~/.config/waybar/config
