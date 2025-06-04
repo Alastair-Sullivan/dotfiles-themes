@@ -11,4 +11,4 @@ firefox
 hyprpaper
 nordzy-icon-theme
 nordic-theme
-sway# themes
+sway
