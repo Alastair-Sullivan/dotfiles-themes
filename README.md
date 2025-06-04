@@ -7,6 +7,7 @@
 #You can remove the top line of your style.css and replace the colors at the top with your desired choice.
 #run pywalfox install
 #install firefox pywalfox addon
+#include ~/.cache/wal/colors-kitty.conf put that in your kitty.conf
 waybar
 hyprpicker
 pywal
