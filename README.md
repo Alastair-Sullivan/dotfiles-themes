@@ -1,4 +1,5 @@
 #DEPENDENCIES
+#if your on the desktop branch check hyprland conf for correct monitor info
 
 pywal
 hyprcursor
@@ -11,4 +12,5 @@ firefox
 hyprpaper
 nordzy-icon-theme
 nordic-theme
-sway# themes
+sway
+

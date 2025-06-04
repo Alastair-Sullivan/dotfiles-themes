@@ -10,3 +10,5 @@ echo "User:"
 read user
 echo "preload = $path 
 wallpaper = , $path" > /home/$user/.dotfiles-themes/hypr/hyprpaper.conf
+hyprctl exit
+hyprland 
